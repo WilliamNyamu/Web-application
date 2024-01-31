@@ -1,0 +1,34 @@
+#para1{
+    text-align: center;
+    border: 10px;
+    padding: 10px 10%;
+    background-color: black;
+    color: red;
+    font-size: 20px;
+}
+.mystyle{
+    text-decoration: whitesmoke;
+    display: flex;
+    font-family: "Century Schoolbook L";
+    animation: infinite;
+    color: dodgerblue;
+    background-color: chocolate;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("maybach1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+p{
+    background-color: black;
+    color: chocolate;
+}
+#para2{
+    text-align: center;
+    border: 10px;
+    padding: 10px 10%;
+    background-color: black;
+    color: red;
+    font-size: 20px;
+}

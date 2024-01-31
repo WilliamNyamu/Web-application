@@ -1,0 +1,53 @@
+h2{
+    color: blue;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: underline;
+    font-family:Arial, sans-serif ;
+}
+p{
+    text-align: center;
+    background-color: #555555;
+    color: #dddddd;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 22px;
+
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: aqua;
+}
+.navbar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: dodgerblue;
+    text-decoration: none;
+}
+.navbar .menu{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.navbar .menu a{
+    font-size: 18px;
+    font-family: Chandas;
+    font-weight: 500;
+    color: chocolate;
+    padding-top: 1px;
+    padding-bottom: 0;
+}
+.navbar .menu a:hover{
+    color: green;
+    background-color: chocolate;
+}
+.navbar .menu li{
+    list-style: none;
+    margin: 0 8px;
+}

@@ -1,0 +1,154 @@
+.navbar{
+    width: 100%;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+.navbar .logo a{
+    font-family: Chandas;
+    color: tomato;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+}
+.navbar .all-links a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: chocolate;
+    margin: 8px 6px;
+}
+.navbar .all-links{
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+.navbar .all-links a:hover{
+    color: dodgerblue;
+    background-color: #dddddd;
+}
+h3{
+    font-family: Chandas;
+    text-decoration: underline;
+    background-color: gold;
+    opacity: 0.9;
+    color: #555555;
+    text-align: center;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: #333333;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("faviconV2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .home-content .text-one{
+    font-size: 25px;
+    color: gold;
+    font-family: Chandas;
+    font-weight: 600;
+
+}
+.home .text-two{
+    font-size: 25px;
+    color: tomato;
+    font-weight: 600;
+    margin-left:-3px;
+}
+.home .text-three{
+    font-size: 20px;
+    font-family: Chandas;
+    font-weight: 600;
+    margin: 8px 0;
+}
+.home .text-four{
+    font-size: 23px;
+    color: black;
+    opacity: 1;
+    margin: 5px 0;
+}
+
+.home .button{
+    margin: 14px 0;
+}
+.home .button button{
+    background-color: chocolate;
+    color: black;
+    border-radius: 6px;
+    margin: 0;
+    padding:8px 16px;
+    outline: none;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    border:2px solid transparent;
+}
+.home .button button:hover{
+    border-color: black;
+    background-color: dodgerblue;
+    color: red;
+}
+.sam{
+    width: 100%;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("teddy bear sweater.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.sam .sam-content{
+    font-family: Chandas;
+    color: black;
+    display: compact;
+}
+.sam .nick{
+    margin: 0 5px;
+}
+.sam .myles{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.sam .mylo {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0;
+    margin:0 5px;
+}
+.sam .ton button{
+    color: red;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    align-content: center;
+}
+.sam .ton button:hover{
+    color: aqua;
+    background-color: #555555;
+}

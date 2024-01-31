@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>MY FORM</title>
+    <style>
+         body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+             font-size: larger;
+        }
+        header{
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav{
+            background-color: #555;
+            overflow: hidden;
+            text-align: center;
+        }
+        nav a{
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover{
+            background-color: #ddd;
+            color: black;
+        }
+        footer{
+            color: white;
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 50px;
+        }
+        button{
+            text-align: center;
+            background-color: #dddddd;
+            color: chocolate;
+            text-size-adjust: auto;
+        }
+        .input-box{
+
+            padding: 5px;
+            margin-top: 10px;
+
+
+        }
+        .input-box input{
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            border-bottom: 1px solid black;
+            border-radius: 6px;
+        }
+        .input-btn{
+            text-align: center;
+            padding: 6px;
+
+        }
+        .input-btn input{
+            background-color: chartreuse;
+            padding-left: 6px;
+            padding-right: 6px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+<nav>
+    <a href="#"><button>Home</button></a>
+    <a href="#"><button>About us</button></a>
+    <a href="#"><button>Contact us</button></a>
+    <a href="#"><button>Register</button></a>
+</nav>
+<form action="" style="background-color: #333333;color: chocolate;border-radius: 30px;padding: 30px;margin: 30px; width: 380px">
+    <div class="input-box">
+    <label for="">First name</label>
+    <input type="text"><br><br>
+    </div>
+    <div class="input-box">
+    <label for="">Last name</label>
+    <input type="text"><br><br>
+    </div>
+    <div class="input-box">
+    <label for="">Username</label>
+    <input type="text"><br><br>
+    </div>
+    <div class="input-box">
+    <label for="">Country</label>
+    <select name="dropdown" id="">
+        <option value="">Kenya</option>
+        <option value="">Ethiopia</option>
+        <option value="">Tanzania</option>
+        <option value="">Sudan</option>
+        <option value="">Eritrea</option>
+        <option value="">South Africa</option>
+    </select>
+    <br><br>
+    </div>
+    <div id="input-btn">
+    <label for="" style="background-color: black;color: red;font-size: 40px">Password</label>
+    <input type="password"><br><br>
+    </div>
+    <label for=""style="background-color: black;color: red">Confirm Password</label>
+    <input type="password"><br><br>
+    <input type="submit" value="SUBMIT">
+    <input type="reset" value="RESET">
+</form>
+<a href="mailto:williamnyamu08@gmail.com"><button>Mail</button> </a>
+<footer>
+    <p>&copy; 2024 My Awesome Website</p>
+</footer
+</body>
+</html>

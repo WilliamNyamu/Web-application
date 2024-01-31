@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        .input-selection {
+            background-color: #333333;
+            color: #dddddd;
+            border-radius: 30px;
+            padding: 30px;
+            margin: 30px;
+            width: 400px;
+        }
+        body{
+            background-color: #555555;
+        }
+        .input-selection input{
+            color: #dddddd;
+            padding: 5px;
+            border-right: 0;
+            border-left: 0;
+            border-top: 0;
+            border-bottom: chartreuse;
+            margin: 10px;
+        }
+        h4{
+            text-align: center;
+            position: fixed;
+            background-color: chartreuse;
+            color: chocolate;
+
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <h4>BIODATA</h4>
+    <div class="input-selection">
+    <label for="">Name</label>
+    <input type="text"><br><br>
+    </div>
+    <div class="input-selection">
+    <label for="">Mobile No.</label>
+    <input type="text"><br><br>
+    </div>
+    <div class="input-selection">
+    <label for="">Gender:</label>
+    Male: <input type="radio" name="Gender" checked value="Male">
+    Female: <input type="radio" name="Gender" value="Female"><br><br>
+    </div>
+    <div class="input-selection">
+    <label for="">Hobbies:</label>
+    Dancing:<input type="checkbox" name="hobby" value="dancing">
+    Singing:<input type="checkbox" name="hobby" value="singing">
+    Soccer:<input type="checkbox" name="hobby" value="soccer" checked><br><br>
+    </div>
+    <div>
+    <label for="">County</label>
+    <select name="dropdown"id="">
+        <option value="">Nairobi</option>
+        <option value="">Kisumu</option>
+        <option value="">Murang'a</option>
+        <option value="">Mombasa</option>
+        <option value="">Nyeri</option>
+        <option value="">Kirinyaga</option>
+        <option value="">Siaya</option>
+        <option value="">Narok</option>
+        <option value="">Machakos</option>
+    </select>
+    <br><br>
+    </div>
+
+    <input type="submit" value="SUBMIT">
+    <input type="reset" value="RESET">
+</form>
+</body>
+</html>

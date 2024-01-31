@@ -1,0 +1,24 @@
+h2{
+    font-family: Chandas;
+    font-size: 22px;
+    text-decoration: none;
+}
+.HM{
+    align-items: center;
+    width: 100%;
+    margin: 40px;
+    background-color: #333333;
+    color: #dddddd;
+}
+.HM .hosea{
+    display: flex;
+    text-decoration: none;
+    margin: 10px 8px;
+    position: relative;
+    padding: 20px;
+}
+h2{
+    color: #555555;
+    opacity: 1;
+
+}
